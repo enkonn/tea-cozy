@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+}
+
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header{
+  height: 69px;
+  width: 100%;
+  background-color: inherit;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  z-index: 20;
+}
+
+.logo img{
+  padding-left: 10px;
+  height: 50px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+}
+
+nav li{
+  list-style-type: none;
+  padding: 0px 15px;
+}
+nav li a{
+  display: inline-block;
+  text-decoration: underline;
+  color: inherit;
+}
+
+
+/* Content */
+
+/* Spacing all content relative to header*/
+
+.relative-to-header{
+  position: relative;
+  top: 70px;
+}
+
+/* Mission Statement Begins*/
+.mission-statement{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+  background-image: url(../images/mission.jpg);
+  background-size: cover;
+  justify-content: center;
+}
+
+/*Mission Statement Ends*/
+
+/* Tea List Begins*/
+
+.tea-list{
+  width: 1000px;
+}
+
+.tea-item img{
+  width: 300px;
+  height: 200px;
+  padding: 10px 15px;
+
+}
+/* Tea List Ends*/
+
+/* Location List Begins */
+.location-list{
+  width: 1200px;
+  height: 500px;
+  background-image: url(../images/locations.jpg);
+}
+
+.location-item {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 20px;
+  background-color: black;
+  opacity: 1;
+}
+
+/*Contact them*/
+.contact *{
+  margin: 10px 0px;
+}
+
+/* That's pretty much it for now*/
+
+footer{
+  text-align: left;
+  padding: 0px 0px 20px 20px;
+}
+/*Several Applications*/
+
+/*.vertical-margin{
+  margin: 30px 0px;
+}
+*/
+
+.text-with-words-in-em{
+  padding: 10px 0px;
+  background-color: black;
+  opacity: 0.9;
+  width: 100%;
+}
+
+.background-clear{
+  background: none;
+}
+
+.flex-it{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 30px auto;
+}
